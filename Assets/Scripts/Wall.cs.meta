@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 592bdb5ed2381da4f9e709b748532e02
+timeCreated: 1484039259
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - chopSound1: {fileID: 8300000, guid: 4c2332bc8245b474dad63074059bb755, type: 3}
+  - chopSound2: {fileID: 8300000, guid: f6aaac83be9e0493493aace800b76619, type: 3}
+  - dmgSprite: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

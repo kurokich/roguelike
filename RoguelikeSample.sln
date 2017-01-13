@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoguelikeSample", "RoguelikeSample.csproj", "{90AD711C-9136-332E-3892-475807738A5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoguelikeSample.Editor", "RoguelikeSample.Editor.csproj", "{98F70724-FE6C-B015-F798-FEC2DFB08033}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90AD711C-9136-332E-3892-475807738A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AD711C-9136-332E-3892-475807738A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AD711C-9136-332E-3892-475807738A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AD711C-9136-332E-3892-475807738A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F70724-FE6C-B015-F798-FEC2DFB08033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F70724-FE6C-B015-F798-FEC2DFB08033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F70724-FE6C-B015-F798-FEC2DFB08033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F70724-FE6C-B015-F798-FEC2DFB08033}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
