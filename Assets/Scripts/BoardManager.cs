@@ -47,6 +47,7 @@ public class BoardManager : MonoBehaviour {
 
     void BoardSetUp()
     {
+        
         boardHolder = new GameObject("Board").transform;
 
         for(int x = -1; x < columns + 1; x++)
@@ -88,6 +89,7 @@ public class BoardManager : MonoBehaviour {
 
     public void SetupScene(int level)
     {
+        Debug.Log("setup"+level);
         BoardSetUp();
         InitializeList();
         LayoutObjectAtRandom(wallTiles, wallCount.minimum, wallCount.maximum);

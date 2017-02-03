@@ -87,7 +87,7 @@ using System.Collections;
             //Call the LoseFood function of hitPlayer passing it playerDamage, the amount of foodpoints to be subtracted.
             hitPlayer.LoseFood(playerDamage);
             SoundManager.instance.RandomizeSfx(enemyAttack1, enemyAttack2);
-            animator.SetTrigger("enemyAttack");
+            animator.SetTrigger("eAttack");
 
         }
     }

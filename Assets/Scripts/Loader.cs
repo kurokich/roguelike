@@ -1,17 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Loader : MonoBehaviour {
-
+public class Loader : MonoBehaviour
+{
+    //GameManagerのプレファブを指定
     public GameObject gameManager;
-	// Use this for initialization
-	void Awake () {
-        Instantiate(gameManager);
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+    void Awake()
+    {
+        //GameManagerが存在しない時、GameManagerを作成する
+        if (GameManager.instance == null)
+        {
+            Instantiate(gameManager);
+        }
+    }
 }

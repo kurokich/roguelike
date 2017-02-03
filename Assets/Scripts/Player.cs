@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MovingObject {
 
@@ -52,8 +53,7 @@ public class Player : MovingObject {
 			//タッチ数が1以上、つまり画面がタッチされたら
 		if (Input.touchCount > 0) {
             
-			Touch myTouch = Input.touches[0];
-            Debug.Log("aaa");    
+			Touch myTouch = Input.touches[0];   
 			//タッチ開始時なら
 			if (myTouch.phase == TouchPhase.Began) {
 				//touchOriginにタッチ位置を取得
@@ -168,10 +168,10 @@ public class Player : MovingObject {
 
     //Restart reloads the scene when called.
     private void Restart()
-    {
-        Application.LoadLevel(Application.loadedLevel);
+    {   
+        SceneManager.LoadScene("_main",LoadSceneMode.Single);
+        
     }
-
 
     public void LoseFood(int loss)
     {
